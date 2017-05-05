@@ -1,15 +1,15 @@
 //
-//  ExampleIntelygenzTests.swift
-//  ExampleIntelygenzTests
+//  RepositoriesTest.swift
+//  ExampleIntelygenz
 //
 //  Created by Nacho Martinez on 5/5/17.
 //  Copyright © 2017 Nacho Martinez. All rights reserved.
 //
 
 import XCTest
-@testable import ExampleIntelygenz
+import ExampleIntelygenz
 
-class ExampleIntelygenzTests: XCTestCase {
+class RepositoriesTest: XCTestCase {
     
     override func setUp() {
         super.setUp()

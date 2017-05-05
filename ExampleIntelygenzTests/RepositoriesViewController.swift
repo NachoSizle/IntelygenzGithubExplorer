@@ -1,15 +1,15 @@
 //
-//  ExampleIntelygenzTests.swift
-//  ExampleIntelygenzTests
+//  RepositoriesViewController.swift
+//  ExampleIntelygenz
 //
 //  Created by Nacho Martinez on 5/5/17.
 //  Copyright © 2017 Nacho Martinez. All rights reserved.
 //
 
 import XCTest
-@testable import ExampleIntelygenz
+import ExampleIntelygenz
 
-class ExampleIntelygenzTests: XCTestCase {
+class RepositoriesViewController: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,7 +24,6 @@ class ExampleIntelygenzTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
     }
     
     func testPerformanceExample() {

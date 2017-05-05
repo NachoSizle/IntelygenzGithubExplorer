@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039816811EBCCB45002B0560 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398167F1EBCCB45002B0560 /* RepositoriesViewController.swift */; };
+		039816821EBCCB45002B0560 /* RepositoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816801EBCCB45002B0560 /* RepositoryDetailViewController.swift */; };
+		039816861EBCCB57002B0560 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816841EBCCB57002B0560 /* Repositories.swift */; };
+		039816871EBCCB57002B0560 /* RepositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816851EBCCB57002B0560 /* RepositoriesTableViewCell.swift */; };
+		0398168B1EBCCB7C002B0560 /* gitHubIconWhiteBackground120.png in Resources */ = {isa = PBXBuildFile; fileRef = 039816891EBCCB7C002B0560 /* gitHubIconWhiteBackground120.png */; };
+		0398168C1EBCCB7C002B0560 /* gitHubIconWhiteBackground180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0398168A1EBCCB7C002B0560 /* gitHubIconWhiteBackground180.png */; };
+		039816901EBCCB89002B0560 /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398168E1EBCCB89002B0560 /* FAIcon.swift */; };
+		039816911EBCCB89002B0560 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0398168F1EBCCB89002B0560 /* FontAwesome.ttf */; };
+		039816981EBCF9F2002B0560 /* RepositoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816801EBCCB45002B0560 /* RepositoryDetailViewController.swift */; };
+		039816991EBCF9F5002B0560 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398167F1EBCCB45002B0560 /* RepositoriesViewController.swift */; };
+		0398169A1EBCFBC9002B0560 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816841EBCCB57002B0560 /* Repositories.swift */; };
+		0398169B1EBCFBCC002B0560 /* RepositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039816851EBCCB57002B0560 /* RepositoriesTableViewCell.swift */; };
 		03C3F68C1EBCCADB00AC156A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C3F68B1EBCCADB00AC156A /* AppDelegate.swift */; };
-		03C3F68E1EBCCADB00AC156A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C3F68D1EBCCADB00AC156A /* ViewController.swift */; };
 		03C3F6911EBCCADB00AC156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C3F68F1EBCCADB00AC156A /* Main.storyboard */; };
 		03C3F6931EBCCADB00AC156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C3F6921EBCCADB00AC156A /* Assets.xcassets */; };
 		03C3F6961EBCCADB00AC156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C3F6941EBCCADB00AC156A /* LaunchScreen.storyboard */; };
@@ -26,9 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0398167F1EBCCB45002B0560 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		039816801EBCCB45002B0560 /* RepositoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryDetailViewController.swift; sourceTree = "<group>"; };
+		039816841EBCCB57002B0560 /* Repositories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		039816851EBCCB57002B0560 /* RepositoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesTableViewCell.swift; sourceTree = "<group>"; };
+		039816891EBCCB7C002B0560 /* gitHubIconWhiteBackground120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gitHubIconWhiteBackground120.png; sourceTree = "<group>"; };
+		0398168A1EBCCB7C002B0560 /* gitHubIconWhiteBackground180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gitHubIconWhiteBackground180.png; sourceTree = "<group>"; };
+		0398168E1EBCCB89002B0560 /* FAIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIcon.swift; sourceTree = "<group>"; };
+		0398168F1EBCCB89002B0560 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		03C3F6881EBCCADB00AC156A /* ExampleIntelygenz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleIntelygenz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C3F68B1EBCCADB00AC156A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03C3F68D1EBCCADB00AC156A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03C3F6901EBCCADB00AC156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C3F6921EBCCADB00AC156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C3F6951EBCCADB00AC156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +74,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0398167E1EBCCB35002B0560 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0398167F1EBCCB45002B0560 /* RepositoriesViewController.swift */,
+				039816801EBCCB45002B0560 /* RepositoryDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		039816831EBCCB49002B0560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				039816841EBCCB57002B0560 /* Repositories.swift */,
+				039816851EBCCB57002B0560 /* RepositoriesTableViewCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		039816881EBCCB75002B0560 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				039816891EBCCB7C002B0560 /* gitHubIconWhiteBackground120.png */,
+				0398168A1EBCCB7C002B0560 /* gitHubIconWhiteBackground180.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0398168D1EBCCB7F002B0560 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0398168E1EBCCB89002B0560 /* FAIcon.swift */,
+				0398168F1EBCCB89002B0560 /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		03C3F67F1EBCCADB00AC156A = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +131,11 @@
 		03C3F68A1EBCCADB00AC156A /* ExampleIntelygenz */ = {
 			isa = PBXGroup;
 			children = (
+				0398168D1EBCCB7F002B0560 /* Resources */,
+				039816881EBCCB75002B0560 /* Images */,
+				039816831EBCCB49002B0560 /* Models */,
+				0398167E1EBCCB35002B0560 /* Controllers */,
 				03C3F68B1EBCCADB00AC156A /* AppDelegate.swift */,
-				03C3F68D1EBCCADB00AC156A /* ViewController.swift */,
 				03C3F68F1EBCCADB00AC156A /* Main.storyboard */,
 				03C3F6921EBCCADB00AC156A /* Assets.xcassets */,
 				03C3F6941EBCCADB00AC156A /* LaunchScreen.storyboard */,
@@ -181,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0398168C1EBCCB7C002B0560 /* gitHubIconWhiteBackground180.png in Resources */,
 				03C3F6961EBCCADB00AC156A /* LaunchScreen.storyboard in Resources */,
 				03C3F6931EBCCADB00AC156A /* Assets.xcassets in Resources */,
+				0398168B1EBCCB7C002B0560 /* gitHubIconWhiteBackground120.png in Resources */,
 				03C3F6911EBCCADB00AC156A /* Main.storyboard in Resources */,
+				039816911EBCCB89002B0560 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C3F68E1EBCCADB00AC156A /* ViewController.swift in Sources */,
+				039816871EBCCB57002B0560 /* RepositoriesTableViewCell.swift in Sources */,
+				039816811EBCCB45002B0560 /* RepositoriesViewController.swift in Sources */,
+				039816861EBCCB57002B0560 /* Repositories.swift in Sources */,
+				039816901EBCCB89002B0560 /* FAIcon.swift in Sources */,
+				039816821EBCCB45002B0560 /* RepositoryDetailViewController.swift in Sources */,
 				03C3F68C1EBCCADB00AC156A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0398169B1EBCFBCC002B0560 /* RepositoriesTableViewCell.swift in Sources */,
+				039816991EBCF9F5002B0560 /* RepositoriesViewController.swift in Sources */,
+				0398169A1EBCFBC9002B0560 /* Repositories.swift in Sources */,
+				039816981EBCF9F2002B0560 /* RepositoryDetailViewController.swift in Sources */,
 				03C3F6A11EBCCADC00AC156A /* ExampleIntelygenzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +480,7 @@
 				03C3F6A71EBCCADC00AC156A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C3F6A81EBCCADC00AC156A /* Build configuration list for PBXNativeTarget "ExampleIntelygenzTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +489,7 @@
 				03C3F6AA1EBCCADC00AC156A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
