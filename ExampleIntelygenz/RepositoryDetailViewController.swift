@@ -30,7 +30,11 @@ class RepositoryDetailViewController: UIViewController {
     
     func goToRepo(){
         let urlRepo = URL(string: lblRepoUrl.text!)
-        UIApplication.shared.open(urlRepo!)
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(urlRepo!)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -255,12 +255,20 @@ class RepositoriesViewController: UIViewController, UITableViewDataSource, UITab
         
         let repoSelected = repositoriesCollection[(indexSelectedRow?.row)!]
         
+        let indexDate = repoSelected.createdAt.index(repoSelected.createdAt.startIndex, offsetBy: 10)
+        let updateDateSplit = repoSelected.createdAt.substring(to: indexDate)
+        
+        let dateForm = DateFormatter()
+        dateForm.dateFormat = "yyyy-MM-dd"
+        
+        let updateFormat = dateForm.date(from: updateDateSplit)
+        
         let destination = segue.destination
         if destination.view != nil {
             (destination as! RepositoryDetailViewController).navigationItem.title = repoSelected.nameRepo
             
             (destination as! RepositoryDetailViewController).lblCreatedBy.text = repoSelected.nameAuthor
-            (destination as! RepositoryDetailViewController).lblCreatedAt.text = repoSelected.createdAt
+            (destination as! RepositoryDetailViewController).lblCreatedAt.text = self.formatterDate.string(for: updateFormat)
             (destination as! RepositoryDetailViewController).lblRepoUrl.text = repoSelected.repoUrl
             (destination as! RepositoryDetailViewController).lblWatchers.text = repoSelected.watchers
             (destination as! RepositoryDetailViewController).lblForks.text = repoSelected.forks
